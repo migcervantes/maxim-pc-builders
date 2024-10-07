@@ -1,0 +1,28 @@
+@media all and (max-width:1200px) {
+
+    .partner-container img {
+        width: 150px;
+        height: 120px;
+    }
+
+
+}
+
+@media all and (max-width:1000px) {
+    .partner-container{
+        gap: 15px;
+    }
+}
+
+@media all and (max-width:1000px) {
+    .partner-container{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media all and (min-width:375px) {
+    .about-text-header{
+        text-align: center;
+    }
+}

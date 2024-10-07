@@ -1,0 +1,31 @@
+@media all and (max-width: 1200px) {
+    .review-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .review-entity {
+        max-width: 400px;
+        min-width: 400px;
+    }
+}
+
+@media all and (max-width: 500px){
+    
+
+    .review-header h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .review-header {
+        padding: 0;
+        padding-top: 80px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .review-entity{
+        min-width: 275px;
+    }
+}

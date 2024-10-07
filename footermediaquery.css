@@ -1,0 +1,41 @@
+@media all and (max-width:1520px) {
+    .footer-support,
+    .footer-info{
+        font-size: .8rem;
+    }
+
+}
+
+@media all and (max-width:1450px) {
+
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-support,
+    .footer-info{
+        font-size: 1rem;
+        align-items: center;
+    }
+
+    .footer-info {
+        padding: 0;
+        text-align: center;
+    }
+
+    .email-btn {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 500px) {
+
+    .footer-info {
+        padding: 0 10px;
+    }
+
+    .footer-info input {
+        width: 200px;
+    }
+}
